@@ -1,0 +1,35 @@
+* {
+    border: 1px dashed black;
+}
+
+:root {
+    --header-height: 60px;
+    --main-height: 100vh;
+}
+
+
+
+#layout-header {
+    height: var(--header-height);
+}
+
+#layout-main {
+    height: calc(var(--main-height) - var(--header-height) );
+}
+
+
+#layout-main-side {
+
+}
+
+#layour-main-main {
+
+}
+
+#layout-main-main-header {
+    height: 80px;
+}
+
+.overflow {
+    overflow: auto;
+}
