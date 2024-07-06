@@ -181,6 +181,27 @@ hr {
     color: #ffffff;
 }
 
+#layout-main-main > div.cointainer-fluid > div > div.col-lg-4.col-md-12 > div > div > div:nth-child(1) {
+margin-top: 30px; 
+}
+
+#layout-main-main > div.cointainer-fluid > div > div.col-lg-8.col-md-12 > div > div > div:nth-child(2) {
+    border: 1px solid grey;
+}
+
+#layout-main-main > div.cointainer-fluid > div > div.col-lg-4.col-md-12 > div > div > div:nth-child(1) {
+    border: 1px solid grey;
+}
+
+#layout-main-main > div.cointainer-fluid > div > div.col-lg-4.col-md-12 > div > div > div:nth-child(1) > div:nth-child(1) {
+    border-bottom: 1px solid grey;
+}
+
+#layout-main-main > div.cointainer-fluid > div > div.col-lg-4.col-md-12 > div > div > div:nth-child(1) > div.container-fluid > div {
+    border: 1px solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 
 /* Responsive */
