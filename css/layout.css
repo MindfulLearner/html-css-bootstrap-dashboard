@@ -1,3 +1,4 @@
+
 * {
     border: 1px dashed black;
 }
@@ -7,7 +8,62 @@
     --main-height: 100vh;
 }
 
+.icon-circle {
+    background-color: #f26551;
+    color: white;
+    border-radius: 50%;
+    padding: 13px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 10px;
+    height: 10px;
 
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.icon {
+    font-size: 12px;
+}
+
+.icon-square {
+    border: 1px solid grey;
+    color: grey;
+    padding: 13px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 10px;
+    height: 10px;
+
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.status-box {
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 14px; 
+}
+
+.done {
+    background-color: green;
+}
+
+.process {
+    background-color: orange;
+}
+
+.failed {
+    background-color: red;
+}
 
 #layout-header {
     height: var(--header-height);
@@ -23,8 +79,8 @@
     background-color: #051e34;
 }
 
-#layour-main-main {
-
+#layout-main-main > div.cointainer-fluid > div > div.col-lg-8.col-md-12 > div > div > div:nth-child(2) {
+    margin-top: 30px;
 }
 
 #layout-main-main-header {
@@ -38,6 +94,7 @@
 .contenitore-classi {
     border: 1px solid grey;
     height: 50%;
+    margin-top: 30px;
 }
 
 .col-fixed {
@@ -189,4 +246,3 @@
 @media (min-width: 1652px) {
 
 }
-
