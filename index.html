@@ -43,14 +43,13 @@
         <div class="container-fluid h-100">
             <div class="row h-100">
                 <div id="layout-main-side" class="col-fixed d-flex flex-column ">
-                    <ul id="gap-small" style="padding-top: 10px;" class="nav flex-column mb-auto text-cente justify-content-center align-items-center">
-                        <li class="d-flex flex-column align-items-center"><i class="fas fa-home"></i><span></span></li>
-                        <li class="d-flex flex-column align-items-center"><i class="fas fa-chart-bar"></i><span></span></li>
-                        <li class="d-flex flex-column align-items-center"><i class="fas fa-tasks"></i><span></span></li>
-                        <li class="d-flex flex-column align-items-center"><i class="fas fa-bell"></i><span></span></li>
+                    <ul id="gap-small" style="padding-top: 10px;" class="text-white nav d-flex flex-column mb-auto text-cente justify-content-center align-items-center">
+                        <li class="d-flex flex-row align-items-center justify-content-center"><i class="fas fa-home"></i><span id="Home" class="d-none">Home</span></li>
+                        <li class="d-flex flex-row align-items-center justify-content-center"><i class="fas fa-chart-bar"></i><span id="Stats" class="d-none">Stats</span></li>
+                        <li class="d-flex flex-row align-items-center justify-content-center"><i class="fas fa-tasks"></i><span id="Signals" class="d-none">Signals</span></li>
                     </ul>
-                    <ul class="list-unstyled d-flex justify-content-center align-items-center">
-                        <li class="d-flex flex-column align-items-center"><i class="fas fa-cog"></i></li>
+                    <ul class="text-white list-unstyled d-flex justify-content-center align-items-center">
+                        <li class="d-flex flex-row align-items-center justify-content-center"><i class="fas fa-cog"></i><span id="Cog" class="d-none">Admin</span></li>
                     </ul>                    
                 </div>
                 <!-- main main-->

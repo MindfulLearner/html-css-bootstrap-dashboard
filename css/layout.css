@@ -94,6 +94,10 @@
     .col-fixed {
         width: 157px;
     }
+    
+    #Home, #Stats, #Signals, #Cog  {
+        display: flex !important;
+    }
 }
 @media (min-width: 1400px) {
   #img-display-none {
