@@ -218,8 +218,15 @@ margin-top: 30px;
 
 @media (min-width: 576px) {
      #gap-small-medium li:nth-child(n+4) {
-                display: flex;
+                display: flex !important;
             }
+    #img-display-none {
+        display: flex !important;
+    }
+
+    .swagger .d-none {
+        display: flex !important;
+    }
 }
 @media (min-width: 768px) {
     #gap-small-medium li:nth-child(-n+3) {
